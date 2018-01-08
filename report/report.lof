@@ -1,0 +1,8 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces CombUCB1 exploration at different stages\relax }}{11}
+\contentsline {figure}{\numberline {2}{\ignorespaces Adapted-FPL-TRiX exploration at different stages\relax }}{13}
+\contentsline {figure}{\numberline {3}{\ignorespaces Optimal paths, CombUCB1, FPL-TRiX and CombLinTS chosen paths\relax }}{15}
+\contentsline {figure}{\numberline {4}{\ignorespaces Adversarial network 1 mean path weights at each phases\relax }}{16}
+\contentsline {figure}{\numberline {5}{\ignorespaces Adversarial network 2 mean path weights at each phases\relax }}{17}
+\contentsline {figure}{\numberline {6}{\ignorespaces Adversarial network 2 - cumulative costs\relax }}{19}
+\contentsline {figure}{\numberline {7}{\ignorespaces \leavevmode {\color {blue}Exploration score} and \leavevmode {\color {RubineRed}total cost} for different $\eta $, $\gamma $ and $B_t$\relax }}{21}
+\contentsline {figure}{\numberline {8}{\ignorespaces Cumulative cost for different gamma parameters\relax }}{23}

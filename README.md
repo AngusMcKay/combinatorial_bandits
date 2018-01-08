@@ -1,2 +1,2 @@
 # combandits
-Combinatorial Bandits
+Testing of some combinatorial bandit algorithms

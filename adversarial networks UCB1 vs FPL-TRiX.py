@@ -483,7 +483,7 @@ for t in tqdm(range(0, iters, 10)):
 x_axis = list(range(0, iters, 10))
 
 adversarial_network2_TS_cumul_cost = pickle.load(open("net2_clts_cost", "rb"))
-
+stoch_path_means = pickle.load(open("stoch_path_means", "rb"))
 plt.plot(x_axis, adversarial_network2_UCB_cumul_cost, linewidth = 2.5, c = (1, 0.5, 0.0), alpha = 1, label = "CombUCB1")
 plt.plot(x_axis, adversarial_network2_FPL_cumul_cost, linewidth = 2.5, c = (0.0, 0.5, 1), alpha = 1, label = "FPL-TRiX")
 plt.plot(x_axis, adversarial_network2_TS_cumul_cost, linewidth = 2.5, c = (0.0, 1, 0), alpha = 1, label = "CombLinTS")

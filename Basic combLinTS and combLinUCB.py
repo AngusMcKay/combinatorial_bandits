@@ -29,9 +29,9 @@ K = 8
 iters = 100
 lambda_true = 1 # (used to generate true coefficients of Φ which are then used to calculate w̄ )
 sigma_true = 0.5 # (used when adding noise to true w at each iteration)
-d = 10
-phi = np.random.normal(0, 1, (L,d))
-theta_opt = np.random.multivariate_normal([0]*d, np.diag([lambda_true**2]*d))
+d = 40
+phi = np.random.uniform(0, 1, (L, d))
+theta_opt = np.random.multivariate_normal([0]*d, np.diag([lambda_true**2]*d))+5
 
 # create matrices to store results at each iteration
 theta = np.zeros((d, iters+1))
